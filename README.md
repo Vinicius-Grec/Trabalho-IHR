@@ -4,7 +4,7 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Componentes do Grupo
  - Diego Gomes - 11.122.256-8
- - Miguel Savordelli - 11.122.
+ - Miguel Savordelli - 11.122.007-5
  - Vinicius Grec - 11.122.375-6
 
 ## Resumo
