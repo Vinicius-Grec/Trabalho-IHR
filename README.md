@@ -69,40 +69,40 @@ O que ela FALA E FAZ?
  - Supervisiona o funcionamento da farmácia.
   
 DORES
-- Demora na localização dos medicamentos.
-- Sobrecarga dos funcionários.
-- Risco de erros na separação dos produtos.
+ - Demora na localização dos medicamentos.
+ - Sobrecarga dos funcionários.
+ - Risco de erros na separação dos produtos.
   
 GANHOS
-- Maior agilidade no atendimento.
-- Redução de erros operacionais.
-- Melhor aproveitamento do tempo dos funcionários.
+ - Maior agilidade no atendimento.
+ - Redução de erros operacionais.
+ - Melhor aproveitamento do tempo dos funcionários.
   
 Persona: João, 24 anos, atendente de farmácia.
 O que ele PENSA E SENTE?
-- Deseja atender os clientes com rapidez.
-- Preocupa-se em separar os medicamentos corretamente.
-- Sente pressão em horários de grande movimento.
+ - Deseja atender os clientes com rapidez.
+ - Preocupa-se em separar os medicamentos corretamente.
+ - Sente pressão em horários de grande movimento.
 O que ele ESCUTA?
-- Clientes reclamando da demora.
-- Farmacêuticos solicitando medicamentos.
-- Gerentes cobrando produtividade.
+ - Clientes reclamando da demora.
+ - Farmacêuticos solicitando medicamentos.
+ - Gerentes cobrando produtividade.
 O que ele VÊ?
-- Prateleiras com muitos medicamentos.
-- Clientes aguardando atendimento.
-- Funcionários procurando produtos constantemente.
+ - Prateleiras com muitos medicamentos.
+ - Clientes aguardando atendimento.
+ - Funcionários procurando produtos constantemente.
 O que ele FALA E FAZ?
-- Procura medicamentos nas prateleiras.
-- Confere os produtos antes da entrega.
-- Busca agilizar o atendimento.
+ - Procura medicamentos nas prateleiras.
+ - Confere os produtos antes da entrega.
+ - Busca agilizar o atendimento.
 DORES
-- Demora para localizar medicamentos.
-- Sobrecarga de tarefas.
-- Cansaço pela movimentação constante.
+ - Demora para localizar medicamentos.
+ - Sobrecarga de tarefas.
+ - Cansaço pela movimentação constante.
 GANHOS
-- Agilidade na separação dos medicamentos.
-- Redução do esforço físico.
-- Mais tempo para atender os clientes.
+ - Agilidade na separação dos medicamentos.
+ - Redução do esforço físico.
+ - Mais tempo para atender os clientes.
 
 ## Contexto de uso
 
