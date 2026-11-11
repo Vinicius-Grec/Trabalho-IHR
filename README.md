@@ -52,22 +52,27 @@ O que ela PENSA E SENTE?
 -   Deseja garantir um atendimento rápido e eficiente.
 -   Preocupa-se com a precisão na separação dos medicamentos.
 -   Busca melhorar a produtividade da farmácia.
+  
 O que ela ESCUTA?
 - Clientes reclamando da demora.
 - Funcionários relatando dificuldades na rotina.
 - Gerentes cobrando qualidade no atendimento.
+  
 O que ela VÊ?
 - Grande variedade de medicamentos nas prateleiras.
 - Funcionários ocupados procurando produtos.
 - Filas em horários de maior movimento.
+  
 O que ela FALA E FAZ?
 - Orienta os atendentes na separação dos medicamentos.
 - Confere prescrições e produtos.
 - Supervisiona o funcionamento da farmácia.
+  
 DORES
 - Demora na localização dos medicamentos.
 - Sobrecarga dos funcionários.
 - Risco de erros na separação dos produtos.
+  
 GANHOS
 - Maior agilidade no atendimento.
 - Redução de erros operacionais.
