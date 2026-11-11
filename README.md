@@ -112,17 +112,9 @@ GANHOS
 
 ## Contexto de uso
 
-> 💡
-> - Descreva o ambiente em que o robô interage com os usuários
-> - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-> - Quais informações sobre o ambiente o robô deve saber antes de iniciar a tarefa?
+O RAF será utilizado no ambiente interno de farmácias e drogarias, circulando entre as prateleiras de armazenamento de medicamentos e o balcão de atendimento. O ambiente apresenta movimentação constante de funcionários e clientes, especialmente em horários de pico, exigindo que o robô se desloque com segurança, evitando obstáculos e pessoas. O sistema deve atender estabelecimentos de diferentes portes, contribuindo para agilizar o atendimento e reduzir tarefas repetitivas.
 
-<details>
-<summary>📄</summary>
-
-Saguão de entrada e corredores do prédio principal da FEI, durante o FEI Portas Abertas (evento de um único dia, com alta lotação). O ambiente é barulhento e há vários grupos de visitantes circulando ao mesmo tempo, muitos acompanhados de monitores humanos. O robô precisa saber, antes de começar, o mapa dos laboratórios abertos naquele dia e quais estão temporariamente fechados.
-
-</details>
+Antes de iniciar uma tarefa, o robô precisa conhecer a organização das prateleiras, a localização dos medicamentos, a posição do balcão, os corredores disponíveis para circulação e a disponibilidade dos produtos em estoque.
 
 ## Jornada do usuário
 
