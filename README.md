@@ -46,26 +46,58 @@ Persona secundária — João, 24 anos: atendente de farmácia, responsável por
 
 ![Mapa de empatia](empatia.png)
 
-> 💡
-> Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma secundária.
-> - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-> - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-> - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com o robô.
-> - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação robô. Quais expectativas o usuário cria sobre o robô? Que tipo de robô mais agrada essa persona?
-> - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-> - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o robô. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o robô satisfaz?
+Persona: Mariana, 32 anos, farmacêutica responsável por uma drogaria.
 
-<details>
-<summary>📄 (persona: Ana)</summary>
-
-- **Vê:** banners coloridos, estudantes de jaleco, placas de curso, o robô Rumo se movendo pelo saguão.
-- **Ouve:** música ambiente do evento, outros visitantes conversando, um monitor anunciando horários de palestras.
-- **Diz e faz:** pergunta "onde fica o laboratório de robótica?", tira foto do robô, segue meio hesitante quando ele começa a andar.
-- **Pensa e sente:** ansiosa por decidir a faculdade certa, curiosa e um pouco encantada com o robô, insegura se vai dar conta do curso.
-- **Dores:** medo de escolher a faculdade errada; vergonha de fazer perguntas "óbvias" para um humano.
-- **Ganhos:** sente-se acolhida sem julgamento ao perguntar ao robô; economiza tempo achando o laboratório sozinha.
-
-</details>
+O que ela PENSA E SENTE?
+- Deseja garantir um atendimento rápido e eficiente.
+- Preocupa-se com a precisão na separação dos medicamentos.
+- Busca melhorar a produtividade da farmácia.
+O que ela ESCUTA?
+- Clientes reclamando da demora.
+- Funcionários relatando dificuldades na rotina.
+- Gerentes cobrando qualidade no atendimento.
+O que ela VÊ?
+- Grande variedade de medicamentos nas prateleiras.
+- Funcionários ocupados procurando produtos.
+- Filas em horários de maior movimento.
+O que ela FALA E FAZ?
+- Orienta os atendentes na separação dos medicamentos.
+- Confere prescrições e produtos.
+- Supervisiona o funcionamento da farmácia.
+DORES
+- Demora na localização dos medicamentos.
+- Sobrecarga dos funcionários.
+- Risco de erros na separação dos produtos.
+GANHOS
+- Maior agilidade no atendimento.
+- Redução de erros operacionais.
+- Melhor aproveitamento do tempo dos funcionários.
+  
+Persona: João, 24 anos, atendente de farmácia.
+O que ele PENSA E SENTE?
+- Deseja atender os clientes com rapidez.
+- Preocupa-se em separar os medicamentos corretamente.
+- Sente pressão em horários de grande movimento.
+O que ele ESCUTA?
+- Clientes reclamando da demora.
+- Farmacêuticos solicitando medicamentos.
+- Gerentes cobrando produtividade.
+O que ele VÊ?
+- Prateleiras com muitos medicamentos.
+- Clientes aguardando atendimento.
+- Funcionários procurando produtos constantemente.
+O que ele FALA E FAZ?
+- Procura medicamentos nas prateleiras.
+- Confere os produtos antes da entrega.
+- Busca agilizar o atendimento.
+DORES
+- Demora para localizar medicamentos.
+- Sobrecarga de tarefas.
+- Cansaço pela movimentação constante.
+GANHOS
+- Agilidade na separação dos medicamentos.
+- Redução do esforço físico.
+- Mais tempo para atender os clientes.
 
 ## Contexto de uso
 
