@@ -44,8 +44,6 @@ Persona secundária — João, 24 anos: atendente de farmácia, responsável por
 
 ### Mapa de empatia
 
-![Mapa de empatia](empatia.png)
-
 Persona: Mariana, 32 anos, farmacêutica responsável por uma drogaria.
 
 O que ela PENSA E SENTE?
@@ -180,7 +178,7 @@ Dimensões aproximadas:
 - Sensores na base para identificar obstáculos e auxiliar na navegação.
 O protótipo terá aparência predominantemente mecânica e minimalista, priorizando a funcionalidade, a segurança e a facilidade de interação com os funcionários.
 
-<img alt="Esboço do robô Rumo - V1'" src="robo_ihr.jpeg" height="380"/>
+<img alt="Esboço do robô Rumo - V1'" src="robo_ihr.jpeg">
 
 
 ## Ações do robô
