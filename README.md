@@ -79,6 +79,7 @@ GANHOS
  - Melhor aproveitamento do tempo dos funcionários.
   
 Persona: João, 24 anos, atendente de farmácia.
+
 O que ele PENSA E SENTE?
  - Deseja atender os clientes com rapidez.
  - Preocupa-se em separar os medicamentos corretamente.
