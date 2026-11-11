@@ -27,26 +27,15 @@ Objetivo em uma frase: automatizar a separação e o transporte de medicamentos 
 Experiência desejada: proporcionar uma experiência rápida, segura e intuitiva, transmitindo confiança aos funcionários e clientes, além de tornar o processo de atendimento mais eficiente e organizado.
 
 ## Público-Alvo e Stakeholders
-
-> 💡
-> Determine o seu público alvo.
+Público-alvo
+O público-alvo do RAF (Robô Auxiliar Farmacêutico) são farmácias, drogarias e estabelecimentos que trabalham com armazenamento e comercialização de medicamentos, especialmente aqueles que possuem grande variedade de produtos e alto fluxo de atendimento. O robô também será utilizado indiretamente por farmacêuticos e atendentes, auxiliando na separação e no transporte dos medicamentos até o balcão, além de beneficiar os clientes com um atendimento mais ágil.
 
 ### Stakeholders
+Primários — farmacêuticos e atendentes da farmácia, que interagem diretamente com o RAF, solicitando a busca e a entrega dos medicamentos no balcão.
 
-> 💡
-> Identifique os **stakeholders** do projeto — todos os envolvidos e afetados pelo robô, mesmo sem interagir diretamente com ele:
-> - **Primários** — usam o robô diretamente.
-> - **Secundários** — têm contato intermitente com o robô ou interagem com ele por meio de um intermediário.
-> - **Terciários** — são afetados pelo robô (positiva ou negativamente) sem necessariamente interagir com ele.
+Secundários — clientes e demais funcionários da farmácia, que possuem contato indireto com o robô e são beneficiados pela redução do tempo de espera e pela agilidade no atendimento.
 
-<details>
-<summary>📄</summary>
-
-- **Primários** — visitantes (futuros alunos e famílias) que pedem informações e são guiados pelo robô.
-- **Secundários** — recepcionistas e seguranças da portaria, que cruzam com o robô no saguão e ocasionalmente o auxiliam.
-- **Terciários** — coordenadores de curso, cujo número de inscrições pode ser afetado pela impressão (boa ou ruim) que o robô causa nos visitantes.
-
-</details>
+Terciários — proprietários e gerentes das farmácias, responsáveis pela implementação e manutenção do sistema, além de fornecedores de medicamentos e profissionais responsáveis pela organização do estoque, que podem ser impactados pelas mudanças nos processos internos.
 
 ### Personas
 
