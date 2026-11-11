@@ -170,18 +170,18 @@ Mitigação: implementar a identificação dos medicamentos por códigos de barr
 
 ### Protótipo no papel
 
-> 💡
-> Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas): forma, tamanho, rosto/olhos, partes móveis, tela. É o protótipo mais barato e rápido — lembre-se do lema "**teste cedo, teste sempre**".
->
+O RAF será composto por uma base circular com rodas omnidirecionais, permitindo sua movimentação entre as prateleiras e o balcão. Seu corpo terá formato vertical e retangular, com uma estrutura frontal que abriga um braço robótico articulado e uma garra para retirar e transportar medicamentos. Na parte superior, haverá uma tela para receber comandos e apresentar informações ao usuário. O braço deverá possuir articulações para alcançar diferentes posições nas prateleiras.
 
-<details>
-<summary>📄</summary>
+Dimensões aproximadas:
+- Altura total: 1,50 m.
+- Diâmetro da base: 0,60 m.
+- Tela posicionada na parte superior.
+- Braço articulado com garra na região frontal.
+- Sensores na base para identificar obstáculos e auxiliar na navegação.
+O protótipo terá aparência predominantemente mecânica e minimalista, priorizando a funcionalidade, a segurança e a facilidade de interação com os funcionários.
 
- Corpo afunilado sobre uma base omnidirecional (três rodas onidirecionais, em arranjo triangular); "cabeça" arredondada com dois olhos, uma antena/sensor no topo; tela na parte de cima do torso, com o nome do robô; sem braços — apenas um anel de luz na base para sinalizar status. Altura total ≈1,55 m; diâmetro da base ≈0,90 m.
+<img alt="Esboço do robô Rumo - V1'" src="robo_ihr.png" height="380"/>
 
-<img alt="Esboço do robô Rumo - V1'" src="rumo_esboco_v1.png" height="380"/>
-<img alt="Esboço do robô Rumo - V2'" src="rumo_esboco_v2.png" height="380"/>
-<img alt="Esboço do robô Rumo - V3'" src="rumo_esboco_v3.png" height="380"/>
 
 </details>
 
