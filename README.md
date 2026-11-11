@@ -3,9 +3,9 @@
 Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interação Humano-Robô (IHR) (CCR230) do curso de Engenharia de Robôs, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
 ## Componentes do Grupo
-> - Diego Gomes - 11.122.256-8
-> - Miguel Savordelli - 11.122.
-> - Vinicius Grec - 11.122.375-6
+ - Diego Gomes - 11.122.256-8
+ - Miguel Savordelli - 11.122.
+ - Vinicius Grec - 11.122.375-6
 
 ## Resumo
 
