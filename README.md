@@ -83,22 +83,27 @@ O que ele PENSA E SENTE?
  - Deseja atender os clientes com rapidez.
  - Preocupa-se em separar os medicamentos corretamente.
  - Sente pressão em horários de grande movimento.
+
 O que ele ESCUTA?
  - Clientes reclamando da demora.
  - Farmacêuticos solicitando medicamentos.
  - Gerentes cobrando produtividade.
+
 O que ele VÊ?
  - Prateleiras com muitos medicamentos.
  - Clientes aguardando atendimento.
  - Funcionários procurando produtos constantemente.
+
 O que ele FALA E FAZ?
  - Procura medicamentos nas prateleiras.
  - Confere os produtos antes da entrega.
  - Busca agilizar o atendimento.
+
 DORES
  - Demora para localizar medicamentos.
  - Sobrecarga de tarefas.
  - Cansaço pela movimentação constante.
+
 GANHOS
  - Agilidade na separação dos medicamentos.
  - Redução do esforço físico.
