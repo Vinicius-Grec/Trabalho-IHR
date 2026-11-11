@@ -183,7 +183,7 @@ O protótipo terá aparência predominantemente mecânica e minimalista, prioriz
 <img alt="Esboço do robô Rumo - V1'" src="robo_ihr.png" height="380"/>
 
 
-</details>
+
 
 ## Ações do robô
 
