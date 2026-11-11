@@ -233,13 +233,13 @@ Pista exclusiva do robô: um anel luminoso na base indica o estado da tarefa, ut
 
 ## Emoção
 
-Modelo: modelo dimensional de Russell (valência e ativação), que permite representar estados como satisfação, neutralidade e frustração de maneira simples.
+Modelo: modelo das emoções básicas de Ekman, utilizando principalmente felicidade e neutralidade. A escolha se justifica pela presença de um rosto no tablet do RAF, permitindo representar visualmente diferentes estados emocionais.
 
-Percepção: o RAF utiliza o tempo de resposta do usuário, comandos recebidos e possíveis repetições de solicitações para identificar dificuldades durante a interação, sem precisar realizar reconhecimento emocional facial.
+Percepção: o robô identifica possíveis sinais de satisfação ou frustração por meio do tom de voz e das interações com o funcionário.
 
-Mimetismo: o robô mantém uma comunicação calma e objetiva, mesmo quando o funcionário demonstra impaciência. Quando a tarefa é concluída corretamente, pode utilizar uma sinalização luminosa positiva para indicar sucesso.
+Mimetismo: quando o funcionário demonstra satisfação e quando finaliza uma tarefa, o RAF apresenta uma expressão feliz na tela. Caso perceba frustração, apresenta uma expressão neutra e mantém uma comunicação calma, evitando imitar emoções negativas.
 
-Risco de expectativa: se o RAF apresentar comportamentos muito semelhantes aos humanos, os funcionários podem esperar que ele compreenda situações complexas e converse livremente. Para evitar isso, sua comunicação será objetiva e limitada às funções relacionadas à busca e entrega de medicamentos.
+Risco de expectativa: por possuir um rosto com expressões, os funcionários podem esperar que o robô tenha capacidades de interação semelhantes às humanas. Para evitar isso, suas expressões serão simples e limitadas às situações relacionadas ao funcionamento do robô.
 
 ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
