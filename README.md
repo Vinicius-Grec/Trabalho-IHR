@@ -177,9 +177,9 @@ Dimensões aproximadas:
 - Braço articulado com garra na região frontal.
 - Sensores na base para identificar obstáculos e auxiliar na navegação.
 O protótipo terá aparência predominantemente mecânica e minimalista, priorizando a funcionalidade, a segurança e a facilidade de interação com os funcionários.
-
-<img alt="Esboço do robô Rumo - V1'" src="robo_ihr.jpeg">
-
+<p align="center">
+ <img alt="Esboço do robô Rumo - V1'" src="robo_ihr.jpeg" height="380"/>
+</p>
 
 ## Ações do robô
 
