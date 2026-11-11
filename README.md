@@ -22,7 +22,7 @@ Atualmente, as farmácias lidam diariamente com uma grande quantidade de medicam
 
 O RAF é um robô desenvolvido para auxiliar no atendimento farmacêutico, tendo como principal função localizar e retirar medicamentos das prateleiras e transportá-los até o balcão de atendimento. Por meio de sensores e mecanismos de manipulação, o robô deverá identificar os produtos solicitados e realizar sua entrega de maneira autônoma e precisa.
 
-Objetivo em uma frase: automatizar a separação e o transporte de medicamentos das prateleiras até o balcão, reduzindo o tempo de atendimento e o esforço dos funcionários.
+Objetivo: automatizar a separação e o transporte de medicamentos das prateleiras até o balcão, reduzindo o tempo de atendimento e o esforço dos funcionários.
 
 Experiência desejada: proporcionar uma experiência rápida, segura e intuitiva, transmitindo confiança aos funcionários e clientes, além de tornar o processo de atendimento mais eficiente e organizado.
 
@@ -38,22 +38,9 @@ Secundários — clientes e demais funcionários da farmácia, que possuem conta
 Terciários — proprietários e gerentes das farmácias, responsáveis pela implementação e manutenção do sistema, além de fornecedores de medicamentos e profissionais responsáveis pela organização do estoque, que podem ser impactados pelas mudanças nos processos internos.
 
 ### Personas
+Persona primária — Mariana, 32 anos: farmacêutica responsável por uma drogaria de médio porte, com grande variedade de medicamentos e fluxo constante de clientes. Precisa localizar e separar diversos medicamentos ao longo do dia, conciliando o atendimento ao público com outras responsabilidades. Busca agilidade, precisão e redução de tarefas repetitivas. Antes de iniciar uma tarefa, o RAF deve saber qual medicamento foi solicitado, sua localização no estoque e a quantidade necessária.
 
-> 💡
-> - Descreva as personas que irão interagir com o robô. Deixe claro suas principais características e contextos sociais, econômicos e culturais.
-> - Quais informações sobre o usuário o robô deve saber antes de iniciar a tarefa?
-
-- Persona primária ...
-- Persona secundária ...
-- Outras personas ...
-
-<details>
-<summary>📄</summary>
-
-- **Persona primária — Ana, 17 anos:** aluna do 3º ano do ensino médio, indecisa entre Engenharia de Robôs e Ciência da Computação, visita a FEI pela primeira vez acompanhada da mãe. Não sabe onde fica nenhum laboratório.
-- **Persona secundária — Sr. Carlos, 50 anos:** pai de Ana, mais cético em relação a tecnologia, preocupado com o custo do curso e a empregabilidade; tende a fazer perguntas objetivas e desconfia de recomendações "automáticas".
-
-</details>
+Persona secundária — João, 24 anos: atendente de farmácia, responsável por auxiliar os clientes e separar os medicamentos solicitados pelos farmacêuticos. Trabalha em horários de grande movimento e frequentemente precisa percorrer diferentes prateleiras para encontrar os produtos. Possui familiaridade com tecnologias, mas não necessariamente conhecimentos técnicos sobre robótica. Espera que o RAF seja simples de operar, rápido e confiável. Antes de iniciar a tarefa, o robô deve receber o nome ou código do medicamento e o local de entrega.
 
 ### Mapa de empatia
 
