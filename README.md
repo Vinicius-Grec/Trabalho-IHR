@@ -48,10 +48,10 @@ Persona secundária — João, 24 anos: atendente de farmácia, responsável por
 
 Persona: Mariana, 32 anos, farmacêutica responsável por uma drogaria.
 
-O que ela PENSA E SENTE?
-- Deseja garantir um atendimento rápido e eficiente.
-- Preocupa-se com a precisão na separação dos medicamentos.
-- Busca melhorar a produtividade da farmácia.
+- O que ela PENSA E SENTE?
+-   Deseja garantir um atendimento rápido e eficiente.
+-   Preocupa-se com a precisão na separação dos medicamentos.
+-   Busca melhorar a produtividade da farmácia.
 O que ela ESCUTA?
 - Clientes reclamando da demora.
 - Funcionários relatando dificuldades na rotina.
