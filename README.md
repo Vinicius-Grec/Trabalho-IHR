@@ -18,16 +18,15 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 ## Resumo
 
 > 💡
-> Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
-
-<details>
-<summary>📄</summary>
-
 O robô farmacêutico é um sistema robótico desenvolvido para automatizar o processo de separação e entrega de medicamentos em farmácias. Sua principal função é localizar e retirar os remédios armazenados em prateleiras, transportando-os até um balcão de atendimento, onde ficam disponíveis para serem entregues ao cliente ou ao funcionário responsável.
 
 O robô pode utilizar sensores e sistemas de visão computacional para identificar os medicamentos, localizar suas posições nas prateleiras e realizar a movimentação com precisão. Além disso, pode contar com mecanismos de manipulação, como garras, para pegar e transportar os produtos com segurança.
 
 A implementação desse sistema tem como objetivo reduzir o tempo de atendimento, diminuir erros na separação de medicamentos, otimizar a organização dos produtos e reduzir o esforço dos funcionários em tarefas repetitivas. Dessa forma, o robô atua como um auxiliar no ambiente farmacêutico, tornando o processo de atendimento mais ágil, eficiente e organizado.
+<details>
+<summary>📄</summary>
+
+
 </details>
 
 ## Introdução
