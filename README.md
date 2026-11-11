@@ -9,12 +9,7 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Resumo
 
-O robô farmacêutico é um sistema robótico desenvolvido para automatizar o processo de separação e entrega de medicamentos em farmácias. Sua principal função é localizar e retirar os remédios armazenados em prateleiras, transportando-os até um balcão de atendimento, onde ficam disponíveis para serem entregues ao cliente ou ao funcionário responsável.
-
-O robô pode utilizar sensores e sistemas de visão computacional para identificar os medicamentos, localizar suas posições nas prateleiras e realizar a movimentação com precisão. Além disso, pode contar com mecanismos de manipulação, como garras, para pegar e transportar os produtos com segurança.
-
-A implementação desse sistema tem como objetivo reduzir o tempo de atendimento, diminuir erros na separação de medicamentos, otimizar a organização dos produtos e reduzir o esforço dos funcionários em tarefas repetitivas. Dessa forma, o robô atua como um auxiliar no ambiente farmacêutico, tornando o processo de atendimento mais ágil, eficiente e organizado.
-
+O RAF (Robô Autônomo de Farmácia) é desenvolvido para automatizar a busca e o transporte de medicamentos em farmácias. Sua função é localizar os produtos nas prateleiras, retirá-los com uma garra e levá-los até o balcão de atendimento. Com isso, busca reduzir o tempo de espera dos clientes, facilitar o trabalho dos funcionários e tornar o atendimento mais rápido e eficiente.
 
 ## Introdução
 
@@ -28,7 +23,7 @@ Experiência desejada: proporcionar uma experiência rápida, segura e intuitiva
 
 ## Público-Alvo e Stakeholders
 ### Público-Alvo
-O público-alvo do RAF (Robô Autônomo de Farmácia) são farmácias, drogarias e estabelecimentos que trabalham com armazenamento e comercialização de medicamentos, especialmente aqueles que possuem grande variedade de produtos e alto fluxo de atendimento. O robô também será utilizado indiretamente por farmacêuticos e atendentes, auxiliando na separação e no transporte dos medicamentos até o balcão, além de beneficiar os clientes com um atendimento mais ágil.
+O público-alvo do RAF são farmácias, drogarias e estabelecimentos que trabalham com armazenamento e comercialização de medicamentos, especialmente aqueles que possuem grande variedade de produtos e alto fluxo de atendimento. O robô também será utilizado indiretamente por farmacêuticos e atendentes, auxiliando na separação e no transporte dos medicamentos até o balcão, além de beneficiar os clientes com um atendimento mais ágil.
 
 ### Stakeholders
 Primários — farmacêuticos e atendentes da farmácia, que interagem diretamente com o RAF, solicitando a busca e a entrega dos medicamentos no balcão.
