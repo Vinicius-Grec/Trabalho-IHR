@@ -118,46 +118,31 @@ Antes de iniciar uma tarefa, o robô precisa conhecer a organização das pratel
 
 ## Jornada do usuário
 
-> 💡
-> - Criar uma narrativa para o o seu robô e o usuário.
-> - Determine o passo a passo que o usuário realiza desde o primeiro até o último encontro com robô na realização da tarefa.
-> - O que está acontecendo com o ambiente quando o robô está interagindo com o usuário?
->   - Descreva o que acontece ou pode acontecer passo a passo
->   - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
-> - Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
-
-<details>
-<summary>📄</summary>
-
-1. Ana e o pai entram no saguão e ficam parados olhando ao redor, sem saber para onde ir.
-2. O Rumo percebe o grupo parado (sinal de "perdido") e se aproxima devagar, pela frente, mantendo distância social *(espacial)*.
-3. O robô pergunta "Posso ajudar vocês a encontrar algum curso ou laboratório?" e mostra um menu de ícones na tela *(verbal)*.
-4. Ana toca em "Engenharia de Robôs"; o robô confirma e começa a andar, olhando de tempos em tempos para trás para checar se o grupo o segue *(espacial + não-verbal)*.
-5. No corredor, o robô encontra duas pessoas conversando e contorna sem passar entre elas *(espacial)*.
-6. Ao chegar no laboratório, o robô se vira de frente para o grupo, inclina levemente a "cabeça" e deseja uma boa visita *(não-verbal)*.
-
-</details>
+Narrativa: João, atendente de uma farmácia, recebe uma solicitação de medicamento feita por um farmacêutico. Em vez de precisar procurar o produto manualmente nas prateleiras, ele utiliza o RAF para realizar a tarefa.
+1. João informa ao RAF o nome ou código do medicamento solicitado (verbal ou tela).
+2. O robô confirma o medicamento e verifica sua localização no estoque (verbal).
+3. O RAF se desloca até a prateleira correspondente, desviando de pessoas e obstáculos (espacial).
+4. Ao chegar ao local, identifica o medicamento e utiliza sua garra para retirá-lo da prateleira (não-verbal).
+5. O robô transporta o produto até o balcão, evitando atrapalhar a circulação de funcionários e clientes (espacial).
+6. Ao chegar ao destino, sinaliza que a entrega foi concluída e aguarda a retirada do medicamento pelo funcionário (verbal + não-verbal).
+7. João retira o medicamento e confirma o recebimento, encerrando a tarefa.
+Durante todo o processo, a farmácia continua funcionando normalmente, com clientes e funcionários circulando pelo ambiente. O RAF deve realizar seus movimentos com segurança, sem bloquear corredores ou interferir no atendimento.
 
 ## Análise de concorrência
 
-> 💡
-> - Pesquise robôs existentes atualmente que possam fazer a tarefa deste projeto.
-> - Selecione pelo menos 3 robôs diferentes que podem fazer essa tarefa.
-> - Em relação aos concorrentes, respondam as seguintes perguntas:
->   - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
->   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
->   - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
-
-<details>
-<summary>📄</summary>
-
-- **Totens interativos de informação** (comuns em aeroportos e shoppings) — bons para consultar informação estática, mas não guiam fisicamente o visitante até o destino.
-- **Aplicativo de mapa indoor do campus** — dispensa hardware físico, mas perde o acolhimento social que um robô oferece a um visitante inseguro.
-- **Pepper (SoftBank Robotics)**, usado em recepções comerciais — proposta muito parecida (recepcionar e guiar), mas é caro e não é sob medida para o layout da FEI.
-
-A equipe considera o Pepper a referência mais próxima, mas acredita que um robô mais simples e barato (sem braços articulados) atende igualmente bem ao caso de uso do FEI Portas Abertas.
-
-</details>
+Atualmente, existem robôs que automatizam o armazenamento, a localização e a separação de medicamentos em farmácias e hospitais. Alguns exemplos são:
+1. BD Rowa Vmax
+- Pontos positivos: automatiza o armazenamento e a retirada de medicamentos, possui alta capacidade de armazenamento e agiliza a dispensação.
+- Pontos negativos: exige instalação específica, possui custo elevado e depende de uma estrutura adaptada à farmácia. 
+  BD+1
+2. Swisslog PillPick / BoxPicker
+- Pontos positivos: automatiza o armazenamento, a organização e a separação de medicamentos, contribuindo para reduzir erros operacionais.
+- Pontos negativos: possui estrutura complexa e é voltado principalmente para hospitais e grandes centros de distribuição. 
+  PubMed Central (PMC)+1
+3. Omnicell XR2
+- Pontos positivos: utiliza robótica e leitura de códigos de barras para identificar medicamentos, automatizar a separação e melhorar o controle do estoque.
+- Pontos negativos: possui aplicação voltada principalmente para farmácias hospitalares e depende de integração com sistemas de gerenciamento. 
+  Omnicell+1
 
 ## Design do Robô
 
