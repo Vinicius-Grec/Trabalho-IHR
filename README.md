@@ -33,13 +33,13 @@ Secundários — clientes e demais funcionários da farmácia, que possuem conta
 Terciários — proprietários e gerentes das farmácias, responsáveis pela implementação e manutenção do sistema, além de fornecedores de medicamentos e profissionais responsáveis pela organização do estoque, que podem ser impactados pelas mudanças nos processos internos.
 
 ### Personas
-Persona primária — Mariana, 32 anos: farmacêutica responsável por uma drogaria de médio porte, com grande variedade de medicamentos e fluxo constante de clientes. Precisa localizar e separar diversos medicamentos ao longo do dia, conciliando o atendimento ao público com outras responsabilidades. Busca agilidade, precisão e redução de tarefas repetitivas. Antes de iniciar uma tarefa, o RAF deve saber qual medicamento foi solicitado, sua localização no estoque e a quantidade necessária.
+Persona primária — Mariana, 32 anos: farmacêutica responsável de uma drogaria de médio porte, com grande variedade de medicamentos e fluxo constante de clientes. Precisa localizar e separar diversos medicamentos ao longo do dia, conciliando o atendimento ao público com outras responsabilidades. Busca agilidade, precisão e redução de tarefas repetitivas. Antes de iniciar uma tarefa, o RAF deve saber qual medicamento foi solicitado, sua localização no estoque e a quantidade necessária.
 
 Persona secundária — João, 24 anos: atendente de farmácia, responsável por auxiliar os clientes e separar os medicamentos solicitados pelos farmacêuticos. Trabalha em horários de grande movimento e frequentemente precisa percorrer diferentes prateleiras para encontrar os produtos. Possui familiaridade com tecnologias, mas não necessariamente conhecimentos técnicos sobre robótica. Espera que o RAF seja simples de operar, rápido e confiável. Antes de iniciar a tarefa, o robô deve receber o nome ou código do medicamento e o local de entrega.
 
 ### Mapa de empatia
 
-Persona: Mariana, 32 anos, farmacêutica responsável por uma drogaria.
+Persona: Mariana, 32 anos, farmacêutica de uma drogaria.
 
 O que ela PENSA E SENTE?
  - Deseja garantir um atendimento rápido e eficiente.
