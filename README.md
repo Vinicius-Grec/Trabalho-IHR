@@ -180,125 +180,73 @@ Dimensões aproximadas:
 - Sensores na base para identificar obstáculos e auxiliar na navegação.
 O protótipo terá aparência predominantemente mecânica e minimalista, priorizando a funcionalidade, a segurança e a facilidade de interação com os funcionários.
 
-<img alt="Esboço do robô Rumo - V1'" src="robo_ihr.png" height="380"/>
-
-
+<img alt="Esboço do robô Rumo - V1'" src="robo_ihr.jpeg" height="380"/>
 
 
 ## Ações do robô
 
-> 💡
-> Para cada ação:
-> - Descreva a ação.
-> - Determine os pré-requisitos para que a ação aconteça
-> - Determine o que se espera que seja modificado no ambiente quando a ação é finalizada
+Buscar medicamento — pré-requisito: o funcionário informa o nome ou código do medicamento, e o produto está cadastrado no sistema com localização conhecida. Ao finalizar: o medicamento é retirado da prateleira e fica na garra do robô.
 
-<details>
-<summary>📄</summary>
+Transportar medicamento — pré-requisito: o medicamento foi identificado e retirado corretamente. Ao finalizar: o produto é transportado até o balcão de atendimento.
 
-**Guiar até o destino** — pré-requisito: destino escolhido no menu e caminho livre conhecido no mapa do dia. Ao finalizar: o visitante está fisicamente no laboratório e o robô retorna à posição de espera no saguão.
+Entregar medicamento — pré-requisito: o robô chegou ao balcão e identificou a posição de entrega. Ao finalizar: o medicamento fica disponível para retirada pelo funcionário.
 
-**Dar informação rápida** — pré-requisito: pergunta reconhecida dentro do conjunto de perguntas frequentes cadastradas. Ao finalizar: a resposta foi falada e também exibida na tela.
+Retornar à posição inicial — pré-requisito: a entrega foi concluída e o braço robótico está recolhido. Ao finalizar: o RAF retorna à posição de espera, ficando disponível para uma nova solicitação.
 
-</details>
 
 ## Interações do robô
 
 ### Espacial
 
-> 💡
-> - Descreva **onde** o robô se posiciona em relação ao usuário (distância e orientação do corpo), usando as **zonas de proxêmica** (Hall) e as **F-formations**.
-> - Como o robô **inicia** a interação (direção de aproximação) e como **sinaliza** para onde vai?
-> - Para cada interação espacial:
->   - Descreva a interação.
->   - Determine os pré-requisitos para que a interação aconteça.
->   - Determine a resposta emocional esperada do usuário quando a interação é finalizada.
-> - O que o robô faz ao encontrar pessoas **paradas, em conversa ou em grupo**, e ao passar por elas num corredor (sem cruzar entre pessoas conversando)?
-> - Proponha **um ajuste** desse comportamento espacial para um contexto de uso diferente do principal.
+Posicionamento: o RAF mantém uma distância segura dos funcionários e clientes, evitando invadir o espaço pessoal. Ao interagir diretamente com um funcionário, posiciona-se de frente para o balcão.
 
-<details>
-<summary>📄</summary>
+Início da movimentação: desloca-se pelos corredores em velocidade reduzida, evitando pessoas, prateleiras e outros obstáculos.
 
-- **Posicionamento:** aborda o grupo a uma distância social (2–3 m), sempre pela frente, nunca por trás.
-- **Início da aproximação:** aproxima-se em diagonal (nunca em linha reta "contra" a pessoa), reduzindo a velocidade a 1,5 m de distância.
-- **Sinalização de destino:** gira a "cabeça" na direção do laboratório antes de começar a andar.
-- **Grupos e corredores:** ao encontrar duas pessoas conversando, contorna por trás delas, sem passar entre as duas; para grupos maiores, aguarda uma abertura natural na formação.
-- **Ajuste de contexto:** em dias normais de aula (sem evento), o robô aumenta a distância de abordagem, já que há menos ruído social e mais espaço livre no saguão.
+Sinalização de destino: orienta seu corpo e braço robótico na direção da prateleira antes de iniciar a retirada do medicamento.
 
-</details>
+Grupos e corredores: ao encontrar pessoas conversando, reduz a velocidade e aguarda uma passagem livre ou realiza um desvio, sem passar entre elas.
+
+Ajuste de contexto: em farmácias com corredores estreitos, o RAF reduz sua velocidade e prioriza aguardar a passagem de funcionários e clientes.
 
 ### Verbal
 
-> 💡
-> - A interação verbal do robô será **restrita** (comandos, FSM) ou **aberta** (LLM/chatbot)? Justifique a escolha.
-> - Para cada interação verbal:
->   - Descreva a interação.
->   - Determine os pré-requisitos para que a interação aconteça.
->   - Determine a resposta emocional esperada do usuário quando a interação é finalizada.
-> - Como o robô lida com o **timing** das respostas (silêncio, marcadores conversacionais como "uh-huh")?
-> - Que tipo de voz (TTS) o robô usa, e por que ela **combina** com a aparência e o propósito dele?
-> - Identifique **uma limitação** do reconhecimento de fala (ruído, sotaque, vocabulário) que afetaria o seu cenário de uso, e como mitigá-la.
+Restrita — utiliza comandos pré-programados para receber solicitações, confirmar medicamentos e informar o andamento das tarefas. Essa escolha torna a comunicação mais simples e reduz erros durante a operação.
 
-<details>
-<summary>📄</summary>
+Solicitação: o funcionário informa o medicamento desejado pela tela ou por comando de voz.
 
-**Restrita** — usa uma árvore de diálogo (FSM) com um conjunto fechado de destinos e perguntas frequentes, pois o saguão é ruidoso e o vocabulário esperado é previsível; mais confiável do que abrir para um LLM.
+Confirmação: o RAF informa qual medicamento foi solicitado antes de iniciar a busca.
 
-**Timing:** ao processar um pedido, o robô emite um "hum" sonoro curto e pisca os olhos em sequência, evitando silêncio constrangedor.
+Entrega: ao chegar ao balcão, avisa que o medicamento está disponível para retirada.
 
-**Voz:** TTS de tom jovem e neutro, volume ajustável ao ruído do saguão — combina com o porte pequeno do robô (uma voz grave soaria estranha).
+Timing: o robô apresenta pequenos sinais sonoros enquanto processa os comandos, evitando que o funcionário pense que o sistema parou de funcionar.
 
-**Limitação do ASR:** o ruído do evento atrapalha o reconhecimento de nomes de professores e disciplinas. **Mitigação:** escolhas críticas (curso, laboratório) são feitas por toque na tela; o reconhecimento de fala só é usado para perguntas simples de sim/não.
+Voz: utiliza uma voz neutra, clara e objetiva, com volume ajustável de acordo com o ambiente da farmácia.
 
-</details>
+Limitação do reconhecimento de fala: ruídos e conversas simultâneas podem dificultar a identificação dos nomes dos medicamentos. Como solução, o RAF também permite selecionar os produtos por meio da tela ou leitura de códigos de barras.
 
 ### Não-verbal
 
-> 💡
-> - Escolha **dois canais** não verbais (olhar, gesto, toque, postura, ritmo, imitação) e descreva como o robô os usaria.
-> - Para cada interação não-verbal:
->   - Descreva a interação.
->   - Determine os pré-requisitos para que a interação aconteça.
->   - Determine a resposta emocional esperada do usuário quando a interação é finalizada.
-> - Explique como o robô **perceberia** as pistas não verbais correspondentes da pessoa.
-> - Descreva um caso em que a **falta de coordenação** entre fala e comportamento não verbal quebraria a interação.
-> - Proponha **uma pista não verbal exclusiva** do robô (sem equivalente humano direto) que ajudaria na comunicação.
+Canais escolhidos: postura e sinalização luminosa.
 
-<details>
-<summary>📄</summary>
+Postura: o braço robótico se movimenta em direção à prateleira para indicar o início da coleta e retorna à posição de repouso após a entrega.
 
-**Canais escolhidos: olhar e postura.**
-- **Olhar:** os "olhos" de LED giram na direção de quem está falando com o robô e na direção da rota a seguir.
-- **Postura:** o corpo se inclina levemente para frente ao iniciar a aproximação (convite) e se afasta/gira de lado ao encerrar a interação (despedida).
+Sinalização luminosa: luzes na estrutura do robô indicam seu estado de funcionamento, como aguardando solicitação, realizando uma tarefa ou finalizando a entrega.
 
-**Percepção:** uma câmera de profundidade detecta se a pessoa está olhando para o robô (atenção) e se está parada olhando ao redor (sinal de estar perdida).
+Percepção: sensores de proximidade e câmeras permitem identificar obstáculos, pessoas e espaços disponíveis para movimentação.
 
-**Falta de coordenação:** se o robô disser "vamos ao laboratório de robótica" mas girar para o lado errado, o grupo hesita e para de segui-lo — a confiança se quebra.
+Falta de coordenação: se o RAF informar que está entregando um medicamento, mas seu braço ainda estiver realizando outra movimentação, poderá causar confusão e insegurança no funcionário.
 
-**Pista exclusiva do robô:** um anel de luz na base pisca em verde quando o robô está confiante do caminho e em amarelo quando está recalculando a rota — sem equivalente humano direto, mas comunica incerteza de forma clara.
-
-</details>
+Pista exclusiva do robô: um anel luminoso na base indica o estado da tarefa, utilizando cores diferentes para representar cada etapa do funcionamento.
 
 ## Emoção
 
-> 💡
-> - Escolha um **modelo de emoção** (categorias básicas de Ekman, modelo OCC ou modelo dimensional — Russell ou PAD) e justifique a escolha para o seu caso de uso.
-> - Descreva **como** o robô perceberia o estado emocional do usuário, e por quais canais (rosto, voz, postura, outro).
-> - Defina **quando** o robô deve mimetizar a emoção da pessoa e **quando não deve** (lembre-se da exceção da raiva — retribuir raiva raramente ajuda a resolver o conflito).
-> - Identifique um risco de **gerenciamento de expectativas**: se o robô parece emocionalmente responsivo, que outras capacidades sociais o usuário passa a esperar dele? O robô consegue cumprir essa expectativa?
+Modelo: modelo dimensional de Russell (valência e ativação), que permite representar estados como satisfação, neutralidade e frustração de maneira simples.
 
-<details>
-<summary>📄</summary>
+Percepção: o RAF utiliza o tempo de resposta do usuário, comandos recebidos e possíveis repetições de solicitações para identificar dificuldades durante a interação, sem precisar realizar reconhecimento emocional facial.
 
-**Modelo:** categorias básicas de Ekman (feliz, surpreso, neutro) — simples o suficiente para expressar por luzes e tom de voz, sem exigir um rosto detalhado.
+Mimetismo: o robô mantém uma comunicação calma e objetiva, mesmo quando o funcionário demonstra impaciência. Quando a tarefa é concluída corretamente, pode utilizar uma sinalização luminosa positiva para indicar sucesso.
 
-**Percepção:** o robô reconhece tom de voz alterado (frustração) pelo microfone e expressões faciais básicas pela câmera, para saber se o visitante está confuso ou satisfeito.
-
-**Mimetismo:** mimetiza entusiasmo — se o visitante se anima ao ver o laboratório de robótica, o robô "sorri" com as luzes — mas **nunca** mimetiza a impaciência de um visitante apressado; nesse caso mantém tom calmo e oferece um caminho mais curto.
-
-**Risco de expectativa:** se o robô demonstra "empolgação", visitantes podem esperar que ele converse sobre assuntos abertos (ex.: "e as notas de corte?"). O robô precisa deixar claro, de forma simpática, quando um assunto está fora do seu escopo.
-
-</details>
+Risco de expectativa: se o RAF apresentar comportamentos muito semelhantes aos humanos, os funcionários podem esperar que ele compreenda situações complexas e converse livremente. Para evitar isso, sua comunicação será objetiva e limitada às funções relacionadas à busca e entrega de medicamentos.
 
 ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
