@@ -228,18 +228,14 @@ Voz: utiliza uma voz neutra, clara e objetiva, com volume ajustável de acordo c
 Limitação do reconhecimento de fala: ruídos e conversas simultâneas podem dificultar a identificação dos nomes dos medicamentos. Como solução, o RAF também permite selecionar os produtos por meio da tela ou leitura de códigos de barras.
 
 ### Não-verbal
+Canais não verbais:
+- Postura e gestos: o RAF movimenta seu braço robótico em direção à prateleira para indicar que está iniciando a retirada do medicamento. Ao finalizar a tarefa, recolhe o braço e retorna à posição de espera.
+- Sinais luminosos: utiliza luzes na base para indicar seu estado de funcionamento: aguardando uma solicitação, realizando uma tarefa ou concluindo uma entrega.
+- Percepção: o RAF utiliza câmeras e sensores de proximidade para identificar a posição e a movimentação de funcionários e clientes. Assim, consegue reconhecer quando alguém está circulando, parado próximo às prateleiras ou bloqueando sua passagem, ajustando seu deslocamento para evitar colisões e não atrapalhar o atendimento.
 
-Canais escolhidos: postura e sinalização luminosa.
+- Falta de coordenação: caso o RAF informe verbalmente que o medicamento está disponível, mas ainda esteja movimentando seu braço robótico para finalizar a retirada, o funcionário poderá tentar pegar o produto antes da hora, causando confusão ou comprometendo a segurança.
 
-Postura: o braço robótico se movimenta em direção à prateleira para indicar o início da coleta e retorna à posição de repouso após a entrega.
-
-Sinalização luminosa: luzes na estrutura do robô indicam seu estado de funcionamento, como aguardando solicitação, realizando uma tarefa ou finalizando a entrega.
-
-Percepção: sensores de proximidade e câmeras permitem identificar obstáculos, pessoas e espaços disponíveis para movimentação.
-
-Falta de coordenação: se o RAF informar que está entregando um medicamento, mas seu braço ainda estiver realizando outra movimentação, poderá causar confusão e insegurança no funcionário.
-
-Pista exclusiva do robô: um anel luminoso na base indica o estado da tarefa, utilizando cores diferentes para representar cada etapa do funcionamento.
+- Pista não verbal exclusiva: um anel luminoso na base do RAF muda de cor conforme o andamento da tarefa, permitindo que funcionários e clientes identifiquem seu estado mesmo sem ouvir as mensagens sonoras.
 
 ## Emoção
 
