@@ -191,15 +191,16 @@ Retornar à posição inicial — pré-requisito: a entrega foi concluída e o b
 
 ### Espacial
 
-Posicionamento: o RAF mantém uma distância segura dos funcionários e clientes, evitando invadir o espaço pessoal. Ao interagir diretamente com um funcionário, posiciona-se de frente para o balcão.
+Interação espacial
+Posicionamento: o RAF mantém uma distância segura dos funcionários e clientes, evitando invadir o espaço pessoal. Ao interagir diretamente com um funcionário, posiciona-se de frente para o balcão, mantendo a tela orientada para ele. Essa organização permite uma interação na zona social da proxêmica e considera as F-formations, posicionando o robô de maneira que não atrapalhe o espaço de interação entre as pessoas.
 
-Início da movimentação: desloca-se pelos corredores em velocidade reduzida, evitando pessoas, prateleiras e outros obstáculos.
+Início da movimentação: desloca-se pelos corredores em velocidade reduzida, evitando pessoas, prateleiras e outros obstáculos. Ao se aproximar de um funcionário, deve fazê-lo pela frente ou por um ângulo lateral, evitando aproximações inesperadas por trás.
 
-Sinalização de destino: orienta seu corpo e braço robótico na direção da prateleira antes de iniciar a retirada do medicamento.
+Sinalização de destino: orienta seu corpo e braço robótico na direção da prateleira antes de iniciar a retirada do medicamento. Durante o deslocamento, pode utilizar sinais luminosos ou sonoros para indicar que está em movimento e alertar as pessoas próximas.
 
-Grupos e corredores: ao encontrar pessoas conversando, reduz a velocidade e aguarda uma passagem livre ou realiza um desvio, sem passar entre elas.
+Grupos e corredores: ao encontrar pessoas conversando, reduz a velocidade e aguarda uma passagem livre ou realiza um desvio, sem passar entre elas. Ao encontrar pessoas paradas, também deve reduzir a velocidade e desviar quando houver espaço seguro.
 
-Ajuste de contexto: em farmácias com corredores estreitos, o RAF reduz sua velocidade e prioriza aguardar a passagem de funcionários e clientes.
+Ajuste de contexto: em farmácias com corredores estreitos, o RAF reduz sua velocidade e prioriza aguardar a passagem de funcionários e clientes, evitando manobras que possam comprometer a segurança.
 
 ### Verbal
 
