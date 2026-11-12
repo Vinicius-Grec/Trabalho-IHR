@@ -33,44 +33,14 @@ Secundários — clientes e demais funcionários da farmácia, que possuem conta
 Terciários — proprietários e gerentes das farmácias, responsáveis pela implementação e manutenção do sistema, além de fornecedores de medicamentos e profissionais responsáveis pela organização do estoque, que podem ser impactados pelas mudanças nos processos internos.
 
 ### Personas
-Persona primária — Mariana, 32 anos: farmacêutica responsável de uma drogaria de médio porte, com grande variedade de medicamentos e fluxo constante de clientes. Precisa localizar e separar diversos medicamentos ao longo do dia, conciliando o atendimento ao público com outras responsabilidades. Busca agilidade, precisão e redução de tarefas repetitivas. Antes de iniciar uma tarefa, o RAF deve saber qual medicamento foi solicitado, sua localização no estoque e a quantidade necessária.
 
-Persona secundária — João, 24 anos: atendente de farmácia, responsável por auxiliar os clientes e separar os medicamentos solicitados pelos farmacêuticos. Trabalha em horários de grande movimento e frequentemente precisa percorrer diferentes prateleiras para encontrar os produtos. Possui familiaridade com tecnologias, mas não necessariamente conhecimentos técnicos sobre robótica. Espera que o RAF seja simples de operar, rápido e confiável. Antes de iniciar a tarefa, o robô deve receber o nome ou código do medicamento e o local de entrega.
+Persona primária — João, 24 anos: atendente de farmácia, responsável por auxiliar os clientes e separar os medicamentos solicitados pelos farmacêuticos. Trabalha em horários de grande movimento e frequentemente precisa percorrer diferentes prateleiras para encontrar os produtos. Possui familiaridade com tecnologias, mas não necessariamente conhecimentos técnicos sobre robótica. Espera que o RAF seja simples de operar, rápido e confiável. Antes de iniciar a tarefa, o robô deve receber o nome ou código do medicamento e o local de entrega.
+
+Persona secundária — Maria, 58 anos
+Cliente frequente de uma farmácia, que costuma comprar medicamentos e busca um atendimento rápido e organizado. Não possui muita familiaridade com tecnologias automatizadas e prefere interações simples e intuitivas. Espera que o RAF não atrapalhe a circulação da farmácia e que os medicamentos solicitados sejam entregues corretamente ao atendente. Valoriza a agilidade no atendimento, a segurança e a facilidade para encontrar os produtos desejados.
 
 ### Mapa de empatia
-
-Persona: Mariana, 32 anos, farmacêutica de uma drogaria.
-
-O que ela PENSA E SENTE?
- - Deseja garantir um atendimento rápido e eficiente.
- - Preocupa-se com a precisão na separação dos medicamentos.
- - Busca melhorar a produtividade da farmácia.
-  
-O que ela ESCUTA?
- - Clientes reclamando da demora.
- - Funcionários relatando dificuldades na rotina.
- - Gerentes cobrando qualidade no atendimento.
-  
-O que ela VÊ?
- - Grande variedade de medicamentos nas prateleiras.
- - Funcionários ocupados procurando produtos.
- - Filas em horários de maior movimento.
-  
-O que ela FALA E FAZ?
- - Orienta os atendentes na separação dos medicamentos.
- - Confere prescrições e produtos.
- - Supervisiona o funcionamento da farmácia.
-  
-DORES
- - Demora na localização dos medicamentos.
- - Sobrecarga dos funcionários.
- - Risco de erros na separação dos produtos.
-  
-GANHOS
- - Maior agilidade no atendimento.
- - Redução de erros operacionais.
- - Melhor aproveitamento do tempo dos funcionários.
-  
+ 
 Persona: João, 24 anos, atendente de farmácia.
 
 O que ele PENSA E SENTE?
@@ -103,6 +73,39 @@ GANHOS
  - Redução do esforço físico.
  - Mais tempo para atender os clientes.
 
+
+Mapa de empatia — Maria, 58 anos
+
+O que pensa e sente?
+- Deseja ser atendida rapidamente e sem complicações.
+- Preocupa-se em receber o medicamento correto.
+- Sente certa insegurança ao utilizar tecnologias com as quais não está familiarizada.
+
+O que vê?
+- Funcionários procurando medicamentos nas prateleiras.
+- Clientes aguardando atendimento.
+- O RAF circulando pela farmácia para transportar medicamentos.
+
+O que ouve?
+- Funcionários conversando e orientando os clientes.
+- Reclamações sobre demora no atendimento.
+- Explicações dos funcionários sobre o funcionamento do robô.
+
+O que fala e faz?
+- Solicita ajuda aos funcionários para encontrar medicamentos.
+- Pergunta sobre o tempo de espera.
+- Prefere ser atendida por pessoas quando não entende alguma tecnologia.
+
+Dores (dificuldades):
+- Longo tempo de espera.
+- Dificuldade para encontrar determinados medicamentos.
+- Receio de que o robô atrapalhe a circulação ou entregue um produto incorreto.
+
+Ganhos (necessidades):
+- Atendimento mais rápido e organizado.
+- Receber o medicamento correto.
+- Ter uma experiência simples, segura e sem complicações.
+
 ## Contexto de uso
 
 O RAF será utilizado no ambiente interno de farmácias e drogarias, circulando entre as prateleiras de armazenamento de medicamentos e o balcão de atendimento. O ambiente apresenta movimentação constante de funcionários e clientes, especialmente em horários de pico, exigindo que o robô se desloque com segurança, evitando obstáculos e pessoas. O sistema deve atender estabelecimentos de diferentes portes, contribuindo para agilizar o atendimento e reduzir tarefas repetitivas.
@@ -111,15 +114,21 @@ Antes de iniciar uma tarefa, o robô precisa conhecer a organização das pratel
 
 ## Jornada do usuário
 
-Narrativa: João, atendente de uma farmácia, recebe uma solicitação de medicamento feita por um farmacêutico. Em vez de precisar procurar o produto manualmente nas prateleiras, ele utiliza o RAF para realizar a tarefa.
-1. João informa ao RAF o nome ou código do medicamento solicitado (verbal ou tela).
-2. O robô confirma o medicamento e verifica sua localização no estoque (verbal).
-3. O RAF se desloca até a prateleira correspondente, desviando de pessoas e obstáculos (espacial).
-4. Ao chegar ao local, identifica o medicamento e utiliza sua garra para retirá-lo da prateleira (não-verbal).
-5. O robô transporta o produto até o balcão, evitando atrapalhar a circulação de funcionários e clientes (espacial).
-6. Ao chegar ao destino, sinaliza que a entrega foi concluída e aguarda a retirada do medicamento pelo funcionário (verbal + não-verbal).
-7. João retira o medicamento e confirma o recebimento, encerrando a tarefa.
-Durante todo o processo, a farmácia continua funcionando normalmente, com clientes e funcionários circulando pelo ambiente. O RAF deve realizar seus movimentos com segurança, sem bloquear corredores ou interferir no atendimento.
+Narrativa: João, atendente de uma farmácia, recebe uma solicitação de medicamento feita por Maria. Em vez de precisar procurar o produto manualmente nas prateleiras, utiliza o RAF para realizar a tarefa. Durante o processo, Maria continua seu atendimento e pode observar a movimentação do robô, beneficiando-se de um serviço mais ágil e organizado.
+
+1. Solicitação: João informa ao RAF o nome ou código do medicamento solicitado, por comando de voz ou pela tela (verbal).
+
+2. Confirmação: o robô confirma o medicamento e verifica sua localização no estoque, evitando possíveis erros (verbal).
+
+3. Deslocamento: o RAF se desloca até a prateleira correspondente, desviando de pessoas e obstáculos. Ao encontrar Maria ou outros clientes, mantém uma distância segura e evita interromper a circulação (espacial).
+
+4. Retirada: ao chegar ao local, identifica o medicamento e utiliza sua garra para retirá-lo da prateleira (não-verbal).
+
+5. Transporte: o robô leva o produto até o balcão, evitando atrapalhar a circulação de funcionários e clientes (espacial).
+
+6. Sinalização da entrega: ao chegar ao destino, informa que a entrega foi concluída e apresenta uma expressão de satisfação na tela, aguardando a retirada do medicamento por João (verbal + não-verbal).
+
+7. Finalização: João retira o medicamento e confirma o recebimento. Maria é beneficiada pela maior agilidade do atendimento, sem precisar interagir diretamente com o robô.
 
 ## Análise de concorrência
 
